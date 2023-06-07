@@ -1,2 +1,2 @@
 #!/bin/bash
-cd; mkdir my_first_directory; file my_first_directory
+cd mkdir my_first_directory file my_first_directory
