@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "[[:uppercase:]]*" | xargs mv -t /tmp/u
+find . -type f -name !"[[:uppercase:]]*" | xargs mv -t /tmp/u
