@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -l *~ . | xargs mv -t /tmp/u
+grep -l ~ . | xargs mv -t /tmp/u
