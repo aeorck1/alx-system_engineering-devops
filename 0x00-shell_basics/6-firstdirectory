@@ -1,2 +1,2 @@
 #!/bin/bash
-. 2-bring_me_home mkdir ./../tmp/my_first_directory file my_first_directory
+. 2-bring_me_home mkdir ../tmp/my_first_directory file my_first_directory
