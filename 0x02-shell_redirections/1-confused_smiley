@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "\"(\U0244 o)\'"
+printf "\"(\u0244"o")\'\n "
