@@ -1,10 +1,2 @@
 #!/bin/bash
-letters="abcdefghijklmnopqrstuvwxyz"
-for i in $(seq 0 $((${#letters}-1))); do
-  for j in $(seq 0 $((${#letters}-1))); do
-    combination="${letters:i:1}${letters:j:1}"
-    if [[ "$combination" != "oo" ]]; then
-      echo "$combination"
-    fi
-  done
-done
+echo {{a..o}{a..n},{o..z}{p..z}}
